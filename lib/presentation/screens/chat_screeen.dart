@@ -8,7 +8,7 @@ import 'package:yes_no_app/presentation/providers/chat_provider.dart';
 
 class ChatScreen extends StatelessWidget {
   final imageUrl =
-      'https://th.bing.com/th/id/OIP.8W60tIm5KeDchZ_a1VyHxAAAAA?pid=ImgDet&rs=1';
+      'https://th.bing.com/th/id/OIP.F_aOQBs2uLhzRlV5QKQJcAHaHa?pid=ImgDet&rs=1';
 
   const ChatScreen({super.key});
 
@@ -22,7 +22,7 @@ class ChatScreen extends StatelessWidget {
             backgroundImage: NetworkImage(imageUrl),
           ),
         ),
-        title: const Text('Mi amor'),
+        title: const Text('Yes No Maybe Bot'),
         centerTitle: true,
       ),
       body: _ChatView(),
